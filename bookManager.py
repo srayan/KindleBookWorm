@@ -56,6 +56,7 @@ filename = [file for file in os.listdir(sourceFolder) if file.endswith(".mobi")]
 for iFiles in filename:
    print (iFiles)		
    #Need to store the entire path name of the file--If files dumped at other location, then append entire source to iFiles
+   #Using for debugging
    currentFile = os.path.join(sourceFolder,iFiles)
    print "The current location of the file is " +(currentFile)
    fp=open(currentFile,'rb')
