@@ -15,4 +15,4 @@ trashFolder= r'C:/Users/srayan/OneDrive/trashFolder'
 #Email address whiteliested in your Amazon Kindle settings account
 msg['From'] = 'yodeler999@gmail.com'
 #Your Kindle Email address 
-msg['To'] = 'srayanguhathakurta@yahoo.com'
+msg['To'] = 'emailAddress@kindle.com'
