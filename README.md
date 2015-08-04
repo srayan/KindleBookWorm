@@ -13,6 +13,6 @@ destinationFolder = r'C:/Users/srayan/OneDrive/eBook_archive'
 trashFolder= r'C:/Users/srayan/OneDrive/trashFolder'
 
 #Email address whiteliested in your Amazon Kindle settings account
-msg['From'] = 'yodeler999@gmail.com'
+msg['From'] = 'myEmail@gmail.com'
 #Your Kindle Email address 
-msg['To'] = 'emailAddress@kindle.com'
+msg['To'] = 'recipient@kindle.com'
