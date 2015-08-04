@@ -42,8 +42,8 @@ trashFolder= r'C:/Users/srayan/OneDrive/trashFolder'
 # Create a text/plain message
 msg=email.mime.Multipart.MIMEMultipart()
 #msg['Subject'] = '
-msg['From'] = 'yodeler999@gmail.com'
-msg['To'] = 'srayanguhathakurta@yahoo.com'
+msg['From'] = 'myEmail@gmail.com'
+msg['To'] = 'recipient@kindle.com'
   
 # The main body is just another attachment
 # body = email.mime.Text.MIMEText("""Email message body (if any) goes here!""")
@@ -67,8 +67,8 @@ for iFiles in filename:
 #Mail trigger module
 server = smtplib.SMTP('smtp.gmail.com:587')
 server.starttls()
-server.login('yodeler999@gmail.com','password')
-server.sendmail('yodeler999@gmail.com',['srayanguhathakurta@yahoo.com'], msg.as_string())
+server.login('myEmail@gmail.com','password')
+server.sendmail('myEmail@gmail.com',['recipient@kindle.com'], msg.as_string())
 server.quit()
 print "Email successfully sent!"
 
