@@ -53,7 +53,7 @@ msg['To'] = 'recipient@kindle.com'
 #To check if the directory is empty.
 #If directory is empty program exits and no email/file copy operations are carried out
 if os.listdir(sourceFolder) ==[]:
-   print "No file for email today"
+   print "No eBooks for email today"
 else:
     
    #filename is a list(array) which holds the name of all the .mobi books present in the directory
