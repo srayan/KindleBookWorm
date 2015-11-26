@@ -16,3 +16,6 @@ trashFolder= r'C:/Users/srayan/OneDrive/trashFolder'
 msg['From'] = 'myEmail@gmail.com'
 #Your Kindle Email address 
 msg['To'] = 'recipient@kindle.com'
+
+BulkConvert.sh is a shell script used to perform bulk conversion of eBooks in .pdf or .epub formats into .mobi.
+I am using CLI modules of Calibre (open source) for this
